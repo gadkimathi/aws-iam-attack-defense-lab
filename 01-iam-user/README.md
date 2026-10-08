@@ -42,5 +42,13 @@ Policy:
 
 ```json
 {
-  "Version
+"Version":"2012-10-17",
+"Statement":[
+{
+"Effect":"Allow",
+"Action":"s3:ListBucket",
+"Resource":"arn:aws:s3:::gad-iam-security-lab-2026"
+}
+]
+}
 ```
